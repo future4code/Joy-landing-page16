@@ -3,12 +3,15 @@
 *{
     margin:0;
     padding:0;
-    
+}
+
+main{
+    display: flex;
+    justify-content: center;
 }
 
 
-
-@media screen and (min-device-width: 250px) and (max-device-width:800px) {
+@media screen and (min-width: 250px) and (max-width:600px) {
     
     /* formulario login responsivo*/
 
@@ -19,10 +22,6 @@
         align-items: center;
         flex-direction: column;
         font-family: 'Montserrat', sans-serif;
-        height: 100vh; 
-        margin: -20px 0 50px;
-        
-
     }
     
     h1 {
@@ -56,7 +55,7 @@
     button {
         border-radius: 20px;
         border: 1px solid #ffffff;
-        background-color: rgb(243, 112, 32);
+        background-color: rgb(255, 112, 44);
         color: #FFFFFF;
         font-size: 12px;
         font-weight: bold;
@@ -165,7 +164,7 @@
     .overlay {
         background: #3a3737;
         background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-        background: linear-gradient(to right, rgb(243, 112, 32), rgb(150, 104, 75));
+        background: linear-gradient(to right, rgb(255, 112, 44), rgb(150, 104, 75));
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0 0;
@@ -268,7 +267,7 @@
         align-items: center;
         font-family: -apple-system, Helvetica, Arial, sans-serif;
         height: 8vh;
-        background-color: rgb(243, 112, 32);
+        background-color: rgb(255, 112, 44);
         z-index: 1;
     }
 
@@ -298,16 +297,16 @@
     }
 
 
-@media screen and (max-device-width:1200px){
+@media screen and (max-width:850px){
 
     .nav-list{
         font-family: roboto;
-        position: fixed;
+        position: absolute;
         top:8vh;
         right: 1px;
-        width: 50vw;
-        height: 92vh;
-        background-color: rgb(243, 112, 32);
+        width: 100vw;
+        height: 97vh;
+        background-color: rgb(255, 112, 44);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -373,7 +372,7 @@
 }
 
 body {
-	background: rgb(243, 112, 32);
+	background: rgb(255, 112, 44);
 	display: grid;
 	justify-content: center;
 	align-items: center;
@@ -415,7 +414,7 @@ a {
 button {
 	border-radius: 20px;
 	border: 1px solid #ffffff;
-	background-color: rgb(243, 112, 32);
+	background-color: rgb(255, 112, 44);
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -583,28 +582,3 @@ input {
 	height: 40px;
 	width: 40px;
 }
-/* 
-footer {
-    background-color: #222;
-    color: #fff;
-    font-size: 14px;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 999;
-}
-
-footer p {
-    margin: 10px 0;
-}
-
-footer i {
-    color: red;
-}
-
-footer a {
-    color: #3c97bf;
-    text-decoration: none;
-} */

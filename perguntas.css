@@ -265,8 +265,8 @@ nav {
         position: fixed;
         top: 8vh;
         right: 1px;
-        width: 50vw;
-        height: 92vh;
+        width: 100vw;
+        height: 97vh;
         background-color: rgb(243, 112, 32);
         display: flex;
         flex-direction: column;
